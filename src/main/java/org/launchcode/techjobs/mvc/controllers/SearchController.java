@@ -40,6 +40,6 @@ public class SearchController {
             model.addAttribute("title", "Jobs with " + columnChoices.get(searchType) + ": " + searchTerm);
             model.addAttribute("jobs", jobs);
         }
-        return "redirect:";
+        return "search";
     }
 }
